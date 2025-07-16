@@ -35,7 +35,7 @@ export default function Header() {
       </div>
       {/* 2. 탭: 로고 max-w와 동일, 바로 아래 라인 */}
       <nav>
-        <div className="max-w-7xl mx-auto flex gap-6 py-2 justify-center">
+        <div className="max-w-7xl mx-auto flex gap-6 py-2 px-4 justify-start">
           {tabs.map((tab) => (
             <div
               key={tab}
